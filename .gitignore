@@ -6,5 +6,47 @@ dist/
 wheels/
 *.egg-info
 
-# Virtual environments
-.venv
+
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+*.whl
+
+# IDE/editor files
+.vscode/
+.idea/
+*.swp
+*.sublime*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Lock files
+uv.lock
+Pipfile.lock
+
+# Secrets and tokens
+token.txt
+
+# Misc
+.env
+*.log
+
+# Test output
+htmlcov/
+.coverage
+.tox/
+
+# Ignore main.pyc if generated
+main.pyc
